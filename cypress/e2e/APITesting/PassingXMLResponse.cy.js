@@ -52,7 +52,7 @@ describe("XML Parsing", ()=> {
 
 const xmlPayload = "<Pet>    <id>0</id>    <Category>       <id>0</id>       <name>Dog</name>    </Category>    <name>Jimmy</name>    <photoUrls>       <photoUrl>string</photoUrl>    </photoUrls>    <tags>       <Tag>          <id>0</id>          <name>string</name>       </Tag>    </tags>    <status>available</status> </Pet>"
 let petid = null;
-    before("creating PET",() => {
+    it("creating PET",() => {
         cy.request({
             method: 'POST',
             url: "https://petstore.swagger.io/v2/pet",
