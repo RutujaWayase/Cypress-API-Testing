@@ -9,6 +9,7 @@
   "author": "Rutuja Wayase",
   "license": "ISC",
   "dependencies": {
+    "ajv": "^8.16.0",
     "cypress": "^13.12.0"
   }
 }
