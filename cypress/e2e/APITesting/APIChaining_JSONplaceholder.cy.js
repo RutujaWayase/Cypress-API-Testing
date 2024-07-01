@@ -13,11 +13,11 @@ describe("API chaining", () => {
         .then((postid) => {
             cy.request({
                 method: 'GET',
-                url: 'https://jsonplaceholder.typicode.com/comments?postId=${postid)' //specify url with query parameter
+                url: "https://jsonplaceholder.typicode.com/comments?postId=${postid)" //specify url with query parameter
                 
             })
             .then((response) => {
-                expect(response.status).to.eq(200)
+                expect(response.status).to.eq(201)
                 expect(response.body).to.have.length(5)
             })
         })
