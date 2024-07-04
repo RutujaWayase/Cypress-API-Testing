@@ -10,4 +10,5 @@ OAuth 2.0 Authentication.
 # Cypress Lighthouse Integration Steps
 
 Command: npm i @cypress-audit/lighthouse
+
 URL: https://www.npmjs.com/package/@cypress-audit/lighthouse?activeTab=readme
